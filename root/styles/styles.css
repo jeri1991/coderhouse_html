@@ -1,3 +1,7 @@
+*{
+    font-family: "Apercu";
+}
+
 body {
     background-color: cadetblue;
     display: flex;
