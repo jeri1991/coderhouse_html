@@ -1,26 +1,67 @@
+/* CSS HEX 
+--white: #FFFFFFff;
+--persian-green: #2CA398ff;
+--golden-brown: #957136ff;
+--celeste: #C1F1EDff;
+--ice-blue: #94FAF1ff;
+--tiffany-blue: #77C1B9ff;
+--satin-sheen-gold: #C29E57ff;
+--white-2: #FFFFFFff;
+--peach-yellow: #F2D99Aff;
+--coyote: #7D6435ff;
+
+
+SCSS RGB 
+$white: rgba(255, 255, 255, 1);
+$persian-green: rgba(44, 163, 152, 1);
+$golden-brown: rgba(149, 113, 54, 1);
+$celeste: rgba(193, 241, 237, 1);
+$ice-blue: rgba(148, 250, 241, 1);
+$tiffany-blue: rgba(119, 193, 185, 1);
+$satin-sheen-gold: rgba(194, 158, 87, 1);
+$white-2: rgba(255, 255, 255, 1);
+$peach-yellow: rgba(242, 217, 154, 1);
+$coyote: rgba(125, 100, 53, 1);
+
+SCSS Gradient 
+$gradient-top: linear-gradient(0deg, #FFFFFFff, #2CA398ff, #957136ff, #C1F1EDff, #94FAF1ff, #77C1B9ff, #C29E57ff, #FFFFFFff, #F2D99Aff, #7D6435ff);
+$gradient-right: linear-gradient(90deg, #FFFFFFff, #2CA398ff, #957136ff, #C1F1EDff, #94FAF1ff, #77C1B9ff, #C29E57ff, #FFFFFFff, #F2D99Aff, #7D6435ff);
+$gradient-bottom: linear-gradient(180deg, #FFFFFFff, #2CA398ff, #957136ff, #C1F1EDff, #94FAF1ff, #77C1B9ff, #C29E57ff, #FFFFFFff, #F2D99Aff, #7D6435ff);
+$gradient-left: linear-gradient(270deg, #FFFFFFff, #2CA398ff, #957136ff, #C1F1EDff, #94FAF1ff, #77C1B9ff, #C29E57ff, #FFFFFFff, #F2D99Aff, #7D6435ff);
+$gradient-top-right: linear-gradient(45deg, #FFFFFFff, #2CA398ff, #957136ff, #C1F1EDff, #94FAF1ff, #77C1B9ff, #C29E57ff, #FFFFFFff, #F2D99Aff, #7D6435ff);
+$gradient-bottom-right: linear-gradient(135deg, #FFFFFFff, #2CA398ff, #957136ff, #C1F1EDff, #94FAF1ff, #77C1B9ff, #C29E57ff, #FFFFFFff, #F2D99Aff, #7D6435ff);
+$gradient-top-left: linear-gradient(225deg, #FFFFFFff, #2CA398ff, #957136ff, #C1F1EDff, #94FAF1ff, #77C1B9ff, #C29E57ff, #FFFFFFff, #F2D99Aff, #7D6435ff);
+$gradient-bottom-left: linear-gradient(315deg, #FFFFFFff, #2CA398ff, #957136ff, #C1F1EDff, #94FAF1ff, #77C1B9ff, #C29E57ff, #FFFFFFff, #F2D99Aff, #7D6435ff);
+$gradient-radial: radial-gradient(#FFFFFFff, #2CA398ff, #957136ff, #C1F1EDff, #94FAF1ff, #77C1B9ff, #C29E57ff, #FFFFFFff, #F2D99Aff, #7D6435ff);
+*/
+
 *{
     font-family: "Apercu";
 }
 
+.logo-li-on img {
+    height: 500px;
+}
+
 body {
-    background-color: cadetblue;
+    
     display: flex;
     flex-direction: column;
 }
 
-ul {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #7D6435ff;
   }
 
-  li {
+.navbar li {
     float: left;
   }
   
-  li a {
+ .navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -28,16 +69,18 @@ ul {
     text-decoration: none;
   }
 
-  li a:hover {
+ .navbar li a:hover {
     background-color: #111;
   }
 
   footer {
-    position: absolute;
+    position: relative;
     padding: 1rem;
     text-align: center;
     bottom: 0;
   }
+
+  /* Comments for Images in Gallery*/
 
   .grid-container {
     display: grid;
@@ -54,3 +97,11 @@ ul {
     max-width: 100%;
     overflow: hidden;
   }
+
+
+  /* Comments for table in Services*/
+ table, th, td {
+  border: 1px solid black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
