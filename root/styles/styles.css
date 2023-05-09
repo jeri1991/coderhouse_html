@@ -53,6 +53,7 @@ body {
   text-align: center;
   font-size: 80px;
 }
+
 .navbar {
     list-style-type: none;
     margin: 0;
@@ -62,7 +63,7 @@ body {
   }
 
 .navbar li {
-    float: left;
+    float: right;
   }
   
  .navbar li a {
