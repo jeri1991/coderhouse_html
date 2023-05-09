@@ -49,6 +49,10 @@ body {
     flex-direction: column;
 }
 
+.title-center {
+  text-align: center;
+  font-size: 80px;
+}
 .navbar {
     list-style-type: none;
     margin: 0;
