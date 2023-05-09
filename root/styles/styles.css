@@ -59,11 +59,33 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #7D6435ff;
+    background: linear-gradient(322deg, #c29e57, #957136, #f2d99a, #7d6435);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 31s ease infinite;
+    -moz-animation: AnimationName 31s ease infinite;
+    animation: AnimationName 31s ease infinite;
   }
+
+  @-webkit-keyframes AnimationName {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 49%}
+    50%{background-position:100% 52%}
+    100%{background-position:0% 49%}
+}
 
 .navbar li {
     float: right;
+    height: auto;
   }
   
  .navbar li a {
