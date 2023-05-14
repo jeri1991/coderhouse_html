@@ -37,6 +37,8 @@ $gradient-radial: radial-gradient(#FFFFFFff, #2CA398ff, #957136ff, #C1F1EDff, #9
 
 *{
     font-family: "Apercu";
+    margin: 0;
+    padding: 0;
 }
 
 .logo-li-on img {
