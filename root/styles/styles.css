@@ -63,6 +63,9 @@ body {
     overflow: hidden;
     background: linear-gradient(322deg, #c29e57, #957136, #f2d99a, #7d6435);
     background-size: 800% 800%;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 
     -webkit-animation: AnimationName 31s ease infinite;
     -moz-animation: AnimationName 31s ease infinite;
@@ -102,11 +105,16 @@ body {
     background-color: #111;
   }
 
+  main {
+    position: relative;
+    top: 100px;
+  }
+
   footer {
     position: relative;
     padding: 1rem;
     text-align: center;
-    bottom: 0;
+    
   }
 
   /* Comments for Images in Gallery*/
